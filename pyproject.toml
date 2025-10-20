@@ -1,0 +1,23 @@
+[project]
+name = "robstride-dynamics"
+version = "0.0.1"
+description = "Python API that supports private interface to communicate with Robostride Dynamics actuators."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Robstride Dynamics", email = "support@robstride.com"},
+    {name = "-T.K.-", email = "tk.xyz@gmail.com"},
+]
+dependencies = [
+    "numpy",
+    "python-can",
+    "tqdm",
+]
+
+[project.urls]
+Repository = "https://github.com/ROBSTRIDE-DYNAMICS/Robstride-Dynamics-Python-SDK"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
