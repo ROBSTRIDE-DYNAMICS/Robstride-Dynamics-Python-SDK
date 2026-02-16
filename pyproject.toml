@@ -7,7 +7,7 @@ requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
     {name = "Robstride Dynamics", email = "support@robstride.com"},
-    {name = "-T.K.-", email = "tk.xyz@gmail.com"},
+    {name = "-T.K.-", email = "tk233.xyz@gmail.com"},
 ]
 dependencies = [
     "numpy",
